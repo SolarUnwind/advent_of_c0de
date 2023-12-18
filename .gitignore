@@ -1,0 +1,29 @@
+# use glob syntax
+syntax: glob
+
+tags
+.lib
+*.bak
+*.off
+*.old
+.project
+.h/*
+conf/*
+*.gitaliases
+*.mail_aliases
+*.msmtprc
+
+# build-processing
+*~
+*.elc
+target
+*.pyc
+*.hi
+*.o
+__pycache__
+out
+null
+tmp*
+dist
+test-output
+
